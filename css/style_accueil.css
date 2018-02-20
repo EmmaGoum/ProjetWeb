@@ -1,0 +1,23 @@
+body {
+	background-image : url("../images/accueil.jpeg");
+	background-position : center;
+	/*background-attachment: fixed;*/
+	background-repeat : no-repeat;
+  background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+
+.titre {
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items : center;
+	height : 100%;
+}
+
+h1 {
+	color : white;
+	text-align : center;
+  font-size : 100px;
+}
