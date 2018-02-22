@@ -37,7 +37,9 @@
       </div>
     </nav>
 
-    <h1 class="titre"> Partager vos questionnaires scientifiques </h1>
+    <div class="titre">
+      <h1> Partager vos questionnaires scientifiques </h1>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
