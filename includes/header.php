@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
-    <a class="navbar-brand" href="#">Responsum</a>
+    <a class="navbar-brand" href="../index.php">Responsum</a>
     <ul class="nav navbar-nav navbar-right">
       <?php
         if (empty($_SESSION['prenom'])) {
