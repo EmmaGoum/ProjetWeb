@@ -9,7 +9,7 @@
 
     <h1> Se connecter </h1>
 
-    <form class=".form-horizontal" method="post" action="connect.php">
+    <form class=".form-horizontal" method="post" action="traite_connexion.php">
         <div class="form-group">
         <label class="control-label col-sm-2" for="email">Adresse mail : </label>
           <div class="col-sm-10">
