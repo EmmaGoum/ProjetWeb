@@ -1,6 +1,5 @@
 <?php
   function escape($var) {
-    return $var;
-    //mysql_real_escape_string(htmlspecialchars($var));
+    return htmlspecialchars($var, ENT_QUOTES, 'UTF-8', false);
   }
 ?>
