@@ -24,7 +24,7 @@
    if ($nbMail == 0) {
      $reqAjout = $BDD -> prepare("INSERT INTO `compte` (`idCompte`, `mail`, `prenom`, `nom`, `mdp`) VALUES (?,?,?,?,?)");
      $reqAjout -> execute(array($id,$email,$prenom,$nom,$mdp));
-     header("location:index.php");
+     header("location:../index.php");
    } else {
      header("location:creation_compte.php");
    }
